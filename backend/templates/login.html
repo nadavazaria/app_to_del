@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{%block title%}
+hello
+{%endblock%}
+{%block header%}
+hello guys welcome to rafie's
+{%endblock%}
+
+{%block content%}
+<form action="/login" method ="post">
+
+    first name : <input name = "username" type="text">
+    last name : <input name = "last_name" type="text">
+    <input type="submit" value="submit">
+</form>
+{%endblock%}
